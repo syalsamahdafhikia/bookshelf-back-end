@@ -109,16 +109,6 @@ const getAllBooksHandler = (request) => {
 			books: mapBooks,
 		},
 	};
-	// return {
-	// 	status: 'success',
-	// 	data: {
-	// 		books: books.map((book) => ({
-	// 			id: book.id,
-	// 			name: book.name,
-	// 			publisher: book.publisher,
-	// 		})),
-	// 	},
-	// };
 };
 
 const getBookByIdHandler = (request, h) => {
